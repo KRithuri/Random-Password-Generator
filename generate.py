@@ -7,3 +7,5 @@ special = list(string.punctuation)
 upper = list(string.ascii_uppercase)
 
 password = []
+
+combination = ""
