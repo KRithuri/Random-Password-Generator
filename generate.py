@@ -12,9 +12,6 @@ def password_generator(n,length):
 
     combination = ""
 
-    n = int(input("How many passwords do you want to generate: "))
-    length = int(input("Enter length of password: "))
-
     for i in range(n):
         combination = ""
         for j in range(length):
@@ -22,3 +19,9 @@ def password_generator(n,length):
         password.append(combination)
 
     print(password)
+
+def main():
+    n = int(input("How many passwords do you want to generate: "))
+    length = int(input("Enter length of password: "))
+    password_generator(n,length)
+
