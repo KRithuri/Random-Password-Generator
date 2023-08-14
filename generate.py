@@ -25,3 +25,4 @@ def main():
     length = int(input("Enter length of password: "))
     password_generator(n,length)
 
+main()
